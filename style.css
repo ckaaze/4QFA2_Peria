@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 3px black solid;
+    border-radius: 30px;
+    width: 35vw;
+    height: auto;
+    padding: 4vw;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+#header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#inputContainer{
+    padding-left: 24%;
+}
+
+#beginningValue, #endingValue{
+    border: 2px black solid;
+    border-radius: 30px;
+    width: 8vw;
+    height: 1vw;
+    text-align: center;
+}
+
+#generateButton{
+    border: 2px black solid;
+    border-radius: 30px;
+    width: 12vw;
+    height: 2vw;
+    margin-left: 32%;
+}
+
+table, td{
+    border: 2px black solid;
+}
+
+table{
+    margin: auto;
+    margin-top: 1vw;
+    padding: 0.5vw;
+    border-radius: 20px;
+    background-color: black;
+}
+
+td{
+    width: 1vw;
+    height: 1vw;
+    padding: 0.5vw;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
